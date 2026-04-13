@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 def tributacao_rv(valor: float) -> dict:
     "Aplica a tributação de PLR sobre o valor da renda variável. Retorna bruto e líquido."
